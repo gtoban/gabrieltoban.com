@@ -70,7 +70,11 @@
                         </li> -->
 						
 						<li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-schoolprojects-content').show();" href="#schoolprojects">School Projects</a>
+                            <a onclick="javascript:reset_menus();$('#tab-professionalprojects-content').show();" href="#professionalprojects">School Projects</a>
+						</li>
+						
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-professionalprojects-content').show();" href="#professionalprojects">Professional Projects</a>
 						</li>
                      <!--   <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
@@ -216,7 +220,7 @@
 	
 	
 	
-	    <!-- Projects Section -->
+	    <!-- School Projects Section -->
         <section  name="schoolprojects" id="schoolprojects">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -232,9 +236,13 @@
 								
 									<table class="table table-striped">
 									  <tbody>
-									  <tr><th scope="row" valign="top">Galaxy Model (2018)</th>
+									  <tr><th scope="row" valign="top">Predicting Long Term CPAP Usage in the 1st 7 Months (2019)</th>
+									  <td> Using over 52,000 derived descriptives from CPAP usage patterns, predict usage time and usage over 1 year. Compare a Pearson Correlation or ChiSqaured Test vs PCA for feature selection. Compare K-means and Gaussian Mixture Clusting vs C4.5 and Random Forest Trees. Results found current standards for prediction to be inadequate. 
+									  </td>
+
+									  
+									  <tr><th scope="row" valign="top">Galaxy Model (2019)</th>
 									  <td>Code a model of a “galaxy”. Given 3-D positions of 10 billion objects, build a parallel spatial binary tree using C and MPI. Use tree to search for the number and mass of objects given a distance and 3-D target.
-•	Qualifying Exam (2017) “REM Sleep Stage Identification with Wavelet Decomposition and Artificial Neural Network Using a Single Channel”.
 									  </td>
 
 									  <tr><th scope="row" valign="top">Qualifying Exam (2017) </th>
@@ -293,9 +301,37 @@
 
 	
 	
+		 <!-- Professional Projects Section -->
+        <section  name="professionalprojects" id="professionalprojects">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-4">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-professionalprojects-content').toggle();">Professional Projects  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-professionalprojects-content">
+                        <hr class="star-primary">
+                        <h2>Professional Projects</h2>
+							<ul>
+								<div class="container">
+								
+									<table class="table table-striped">
+									  <tbody>
+									  <tr><th scope="row" valign="top">Predicting Long Term CPAP Usage in the 1st 7 Months (2019)</th>
+									  <td> Using over 52,000 derived descriptives from CPAP usage patterns, predict usage time and usage over 1 year. Compare a Pearson Correlation or ChiSqaured Test vs PCA for feature selection. Compare K-means and Gaussian Mixture Clusting vs C4.5 and Random Forest Trees. Results found current standards for prediction to be inadequate. 
+									  </td>
+									  
+									  </tbody>
+									</table>
 	
-	
-	
+								</div>
+					
+							</ul>
+						
+                    </div>
+                </div>
+            </div>
+        </section>
  
          <!-- Awards Section -->
          <!-- <section  name="awards" id="awards">
