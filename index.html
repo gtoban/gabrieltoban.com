@@ -280,7 +280,7 @@
 									<table class="table table-striped">
 									  <tbody>
 									  <tr><th scope="row" valign="top">Predicting Long Term CPAP Usage in the 1st 7 Months (2019)</th>
-									  <td> Using over 52,000 derived descriptives from CPAP usage patterns, predict usage time and usage over 1 year. Compare a Pearson Correlation or ChiSqaured Test vs PCA for feature selection. Compare K-means and Gaussian Mixture Clusting vs C4.5 and Random Forest Trees. Results found current standards for prediction to be inadequate. 
+									  <td> Using over 52,000 derived descriptives from CPAP usage patterns, predict usage time and usage over 1 year. Compare a Pearson Correlation or ChiSquared Test vs PCA for feature selection. Compare K-means and Gaussian Mixture Clustering vs C4.5 and Random Forest Trees. Results found current standards for prediction to be inadequate. 
 									  </td>
 
 									  
@@ -294,7 +294,11 @@
 
 									  <tr><th scope="row" valign="top">Qualifying Exam (2017) </th>
 									  <td>
-										“REM Sleep Stage Identification with Wavelet Decomposition and Artificial Neural Network Using a Single Channel”.
+										“REM Sleep Stage Identification with Wavelet Decomposition and Artificial Neural Network Using a Single Channel”. 
+										  Classify sleep EEG epochs into REM and NonREM sleep using a single channel EEG (Fpz-Cz). 
+										  Each epoch was transformed using DB2 mother wavelets. 
+										  The coefficients from the first transform pass of discrete wavelet decomposition were reduced in dimensionality with the PCA algorithm retaining 75% of variance in the training data. 
+										  The output of PCA was input to a simple fully connected neural network. The model successfully classified the epochs with 90% accuracy.
 									  </td>
 
 									  <tr><th scope="row" valign="top">Math Modeling for the Erythroproeitin Receptor (2017)</th>
